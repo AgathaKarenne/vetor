@@ -14,7 +14,7 @@ int main(){
   }
   /*contar somente os valores pares*/
   for(int i = 0; i < 10; i++){
-    if(vetor[i] / 2 == 0){
+    if(vetor[i] % 2 == 0){
       par++;
     }
   }
