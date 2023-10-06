@@ -25,7 +25,6 @@ int main() {
         
         media += valores[i];
     }
-
     media /= 5;
 
     printf("Valores lidos: ");
