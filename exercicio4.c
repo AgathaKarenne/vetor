@@ -2,12 +2,12 @@
 
 int main(){
 
-  int vetor[8];
+  int vetor[7];
   int x, y, soma = 0;
 
   /*pedir os valores de 8 posições*/
   printf("digite os numeros correspondentes a posição dada pelo vetor:\n");
-  for(int i = 1; i <= 8; i++){
+  for(int i = 1; i < 7; i++){
         printf("vetor[%d]", i);
         scanf("%d", &vetor[i]);
 
@@ -20,9 +20,11 @@ int main(){
   
   /*aqui deve ser apresentada a soma dos valores x e y*/
 
-  for(int i = 1; i <= 8; i++){
-      if(x >= 0 && x < 8 && y >= 0 && y < 8){
+  for(int i = 1; i < 7; i++){
+      if(x > 0 && x < 7 && y > 0 && y < 7){
           int soma = vetor[x] + vetor[y];
           printf("A soma dos valores nas posições %d e %d é: %d\n", x, y, soma);
       }
   }
+
+}
