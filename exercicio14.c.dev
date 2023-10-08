@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+int main(){
+	
+	int valor[10];
+	int iguais = 0;
+	
+	printf("digite os valores que gostaria de adicionar:\n");
+	
+	for(int i = 0; i < 10; i++){
+	 	scanf("%d", &valor[10]);
+	 	
+	}
+	
+	for(int i = 0; i < 9; i++){
+		for (int iguais = i + 1; iguais < 10; iguais++) {
+			if(valor == iguais){
+				printf("valores iguais são: %d e %d", valor, iguais =1);
+			}
+	
+	  }
+  }
+}
+
