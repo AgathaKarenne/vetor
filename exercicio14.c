@@ -16,7 +16,7 @@ int main(){
 	for(int i = 0; i < 9; i++){
 		for (int iguais = i + 1; iguais < 10; iguais++) {
 			if(valor == iguais){
-				printf("valores iguais são: %d e %d", valor, iguais =1);
+				printf("valores iguais sÃ£o: %d e %d", valor, iguais =1);
 			}
 	
 	  }
